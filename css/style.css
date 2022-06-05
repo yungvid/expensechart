@@ -1,0 +1,439 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+     background-color: hsl(27, 66%, 92%);
+      font-family: roboto;
+     
+    width: 100%;
+
+    }
+    header{
+      width: 88%;
+      background-color: hsl(10, 79%, 65%);
+      margin-top: 50px;
+      color: #fff;
+      border-radius: 8px;
+      margin-left: 2%;
+      padding: 10px;
+      margin-right: 3%;
+    }
+    .left-header{
+      line-height: 35px;
+      margin: 10px 10px;
+      display: inline-block;
+       
+      
+      
+         }
+    .balance{
+       width: 150px;
+      font-weight: 300;
+    }
+    .amount{
+      font-size: 28px;
+       font-weight: 700;
+    }
+    .right{
+     margin-top: 25px; 
+       display: inline-block;
+      position: absolute;
+      margin-left: 35%;
+      margin-right: 30px;
+    }
+    img{
+      width: 40px;
+       height: 40px;
+      border-radius: 50%;
+      
+    }
+    section{
+     
+      width: 92%;
+      background-color: white;
+      margin-left: 2%;
+      color: #fff;
+      border-radius: 10px;
+      color: #000000;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      
+    }
+    
+    .spending{
+      margin: 10px 20px;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 18px;
+      
+    }
+    .chart-bar{
+      margin-top: 1px;
+      margin-left: 5%;
+     
+      width: 100%;
+    }
+    .bar-cointainer{
+      display: inline-block;
+    }
+    .amount-spent{
+      display: none;
+      text-align: center;
+      margin-left: 10px;
+      background-color: black;
+       margin-bottom: 5px;
+      color: #fff;
+    }
+    .amount-spent1{
+      margin-bottom: 5px;
+      text-align: center;
+      background-color: black;
+      color: #fff;
+       width: 90%;
+       display: none;
+      
+    }
+    .bar1{
+      width: 37px;
+      height: 50px;
+      background-color: hsl(10, 79%, 65%);
+       display: inline-block;
+      border-radius: 4px;
+       
+    }
+    .bar2{
+      width: 37px;
+      height: 100px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+      margin-left: 8px;
+      border-radius: 4px;
+    }
+    .bar3{
+     width: 37px;
+      height: 160px;
+      background-color: hsl(186, 34%, 60%);
+       display: inline-block;
+      margin-left: 8px;
+     border-radius: 4px;
+      
+    }
+    .bar4{
+     width: 37px;
+      height: 80px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+       margin-left: 8px;
+      border-radius: 4px;
+    }
+    .bar5{
+      width: 37px;
+      height: 65px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+       margin-left: 8px;
+      border-radius: 4px;
+    }
+    .bar6{
+       width: 37px;
+      height: 140px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+        margin-left: 8px;
+       border-radius: 4px;
+    }
+    .bar7{
+      width: 37px;
+      height: 75px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+      margin-left: 8px;
+       border-radius: 4px;
+    }
+    .days{
+     
+      opacity: 0.7;
+    margin-top: 10px;
+     margin-left: 4%;
+    }
+    .day1{
+       width: 37px;
+     display: inline-block;
+      text-align: center;  
+    }
+    .day2{
+      width: 37px;
+     display: inline-block;
+         margin-left: 8px;
+      text-align: center;
+    }
+    .day3{
+     width: 37px;
+     display: inline-block;
+      margin-left: 8px;
+      text-align: center;
+    }
+    .day4{
+      width: 37px;
+     display: inline-block;
+     margin-left: 8px;
+      text-align: center;
+    }
+    .day5{
+       width: 37px;
+     display: inline-block;
+       margin-left: 8px;
+      text-align: center;
+    }
+    .day6{
+     width: 37px;
+     display: inline-block;
+        margin-left: 8px;
+      text-align: center;
+    }
+    .day7{
+     width: 37px;
+     display: inline-block;
+         margin-left: 8px;
+      text-align: center;
+    }
+    .totalspending{
+      border-top: 4px solid hsl(33, 100%, 98%);
+      width: 89%;
+      margin-top: 30px;
+     margin-left: 3%;
+       display: flex;
+      flex-template-column: auto auto;
+      gap: 29vw;
+      border-width: thick;
+    }
+    .spendingleft{
+      margin: 5px 0px;
+      line-height: 20px;
+     
+    }
+    .month{
+      width: 40vw;
+      opacity: 0.5;
+    }
+    .spendingright{
+       margin: 15px 0px;
+      line-height: 20px;
+    }
+    .month2{
+      width: 40vw;
+      margin-left: -60px;
+       opacity: 0.5;
+    }
+    .percent{
+     font-weight: 400;
+    }
+    
+
+   @media screen and (min-width: 500px) 
+    and  (max-width: 1600px) 
+  {
+     header{
+      width: 420px;
+      height: 90px;
+      background-color: hsl(10, 79%, 65%);
+      margin: 50px auto;
+      color: #fff;
+      border-radius: 10px;
+      
+      
+      
+      padding: 10px;
+    }
+    .left-header{
+      
+      line-height: 35px;
+      margin: 10px 10px;
+      display: inline-block;
+       
+      
+      
+         }
+    .balance{
+       width: 150px;
+      font-weight: 300;
+    }
+    .amount{
+      font-size: 28px;
+       font-weight: 700;
+    }
+    .right{
+     margin: 25px 180px;
+       display: inline-block;
+      position: absolute;
+    }
+    img{
+      width: 40px;
+       height: 40px;
+      border-radius: 50%;
+    }
+    section{
+     width: 420px;
+      height: 450px;
+      background-color: white;
+      margin: 40px auto;
+      color: #fff;
+      border-radius: 10px;
+      color: #000000;
+    }
+    
+    .spending{
+      margin: 10px 20px;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 18px;
+      
+    }
+    .chart-bar{
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+    .bar1{
+      width: 40px;
+      height: 50px;
+      background-color: hsl(10, 79%, 65%);
+       display: inline-block;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .bar2{
+      width: 40px;
+      height: 100px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+      margin-left: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .bar3{
+      width: 40px;
+      height: 160px;
+      background-color: hsl(186, 34%, 60%);
+       display: inline-block;
+       margin-left: 10px;
+     border-radius: 4px;
+      cursor: pointer;
+      
+      
+    }
+    .bar4{
+     width: 40px;
+      height: 80px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+       margin-left: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .bar5{
+      width: 40px;
+      height: 65px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+       margin-left: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .bar6{
+      width: 40px;
+      height: 140px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+       margin-left: 10px;
+       border-radius: 4px;
+      cursor: pointer;
+    }
+    .bar7{
+     width: 40px;
+      height: 75px;
+      background-color:  hsl(10, 79%, 65%);
+       display: inline-block;
+      margin-left: 10px;
+       border-radius: 4px;
+      cursor: pointer;
+    }
+    .days{
+      width: 80vw;
+      opacity: 0.7;
+    margin-top: 10px;
+      margin-left: 20px;
+    }
+    .day1{
+       width: 40px;
+     display: inline-block;
+      text-align: center;  
+    }
+    .day2{
+       width: 40px;
+     display: inline-block;
+         margin-left: 10px;
+      text-align: center;
+    }
+    .day3{
+      width: 40px;
+     display: inline-block;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .day4{
+       width: 40px;
+     display: inline-block;
+     margin-left: 10px;
+      text-align: center;
+    }
+    .day5{
+       width: 40px;
+     display: inline-block;
+       margin-left: 10px;
+      text-align: center;
+    }
+    .day6{
+      width: 40px;
+     display: inline-block;
+        margin-left: 10px;
+      text-align: center;
+    }
+    .day7{
+      width: 40px;
+     display: inline-block;
+         margin-left: 10px;
+      text-align: center;
+    }
+    .totalspending{
+      border-top: 4px solid hsl(33, 100%, 98%);
+      width: 355px;
+      margin: 30px 20px;
+      
+      display: inline-block;
+      
+      border-width: thick;
+    }
+    .spendingleft{
+      margin: 10px 0px;
+      line-height: 30px;
+     display: inline-block;
+    }
+    .month{
+      width: 150px;
+      opacity: 0.5;
+    }
+    .spendingright{
+       margin: 30px 170px;
+      line-height: 25px;
+      display: inline-block;
+      float: right;
+      position: absolute;
+    }
+    .month2{
+      width: 150px;
+      margin-left: -60px;
+       opacity: 0.5;
+    }
+    .percent{
+     font-weight: 400;
+    } 
+  }

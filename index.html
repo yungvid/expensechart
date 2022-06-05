@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/test.js"></script>
+</head>
+<body>
+<header>
+  <div class="left-header">
+  <div class="balance">
+    My balance
+</div>
+<div class="amount">
+  $921.48
+</div>
+  </div>
+<div class="right">
+  <img src="https://imagizer.imageshack.com/img923/8422/DvlHQI.jpg" id="logo" alt="logo"/>
+</div>
+</header>
+  <main>
+<section>
+  <div class="spending">
+  <h1 id="spending">Spending - Last 7 days</h1>
+</div>
+<div class="chart-bar">
+  <div class="bar-cointainer">
+  <div class="amount-spent1" id="amount-spent1">$210</div>
+  <div onmouseover="showOne()" onmouseleave="undoOne()" class="bar1"></div>
+  </div>
+ <div class="bar-cointainer">
+  <div class="amount-spent" id="amount-spent2">$50</div>
+  <div onmouseover="showTwo()" onmouseleave="undoTwo()" class="bar2"></div>
+  </div>
+  <div class="bar-cointainer">
+  <div class="amount-spent" id="amount-spent3">$230</div>
+  <div onmouseover="showThree()" onmouseleave="undoThree()" class="bar3"></div>
+  </div>
+  <div class="bar-cointainer" >
+  <div class="amount-spent" id="amount-spent4">$110</div>
+  <div onmouseover="showFour()" onmouseleave="undoFour()" class="bar4"></div>
+  </div>
+ <div class="bar-cointainer" >
+  <div class="amount-spent" id="amount-spent5">$85.6</div>
+  <div onmouseover="showFive()" onmouseleave="undoFive()" class="bar5"></div>
+  </div>
+ <div class="bar-cointainer" >
+  <div class="amount-spent" id="amount-spent6">$200</div>
+  <div onmouseover="showSix()" onmouseleave="undoSix()" class="bar6"></div>
+  </div>
+  <div class="bar-cointainer">
+  <div class="amount-spent" id="amount-spent7">$60.7</div>
+  <div onmouseover="showSeven()" onmouseleave="undoSeven()" class="bar7"></div>
+  </div>
+</div>
+
+<div class="days">
+  <div class="day1">mon</div>
+  <div class="day2">tue</div>
+  <div class="day3">wed</div>
+  <div class="day4">thu</div>
+  <div class="day5">fri</div>
+  <div class="day6">sat</div>
+  <div class="day7">sun</div>
+</div>
+
+<div class="totalspending">
+  <div class="spendingleft">
+  <div class="month">
+    Total this month
+  </div>
+  <div class="amount">
+    $478.33
+  </div>
+  </div>
+  <div class="spendingright">
+    <div class="percent">
+      +2.4%
+    </div>
+    <div class="month2">
+      from last month
+    </div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">VID</a>.
+  </div>
+</footer>
+</body>
+</html>
+
